@@ -1,18 +1,33 @@
-section{
+section {
     background: $ligthcolor;
-    .section-body{
+    .section-body {
         padding: 1% 2%;
 
-        .search{
-            .input-group-addon{
+        .search {
+            .input-group-addon {
                 background: $ligthcolor;
-                a{
+                a {
                     color: $darkcolor;
                 }
             }
-            input[type='text']{
+            input[type='text'] {
                 border-right: 0;
             }
+        }
+
+        .publicity {
+
+            .small{
+                padding-top: 10%;
+            }
+            .large{
+                padding-top: 1%;
+                padding-bottom: 2%;
+            }
+            img {
+                width: 100%;
+            }
+
         }
     }
 }

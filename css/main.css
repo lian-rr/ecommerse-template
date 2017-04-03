@@ -6343,6 +6343,13 @@ section {
         color: #000; }
     section .section-body .search input[type='text'] {
       border-right: 0; }
+    section .section-body .publicity .small {
+      padding-top: 10%; }
+    section .section-body .publicity .large {
+      padding-top: 1%;
+      padding-bottom: 2%; }
+    section .section-body .publicity img {
+      width: 100%; }
 
 footer {
   background: #000;
