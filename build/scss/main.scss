@@ -1,3 +1,13 @@
 @import "bootstrap";
 @import "bootstrap/theme";
 
+
+//Variables
+@import "variables";
+
+//General styles
+@import "general";
+
+//Components
+@import "components/welcome_bar";
+@import "components/navbar";

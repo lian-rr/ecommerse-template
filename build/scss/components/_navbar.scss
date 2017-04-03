@@ -1,0 +1,43 @@
+.navbar-header {
+    a.navbar-brand {
+        color: $darkcolor;
+    }
+}
+
+ul.main-nav, ul.right-nav {
+    padding-left: 25%;
+    li {
+        display: inline-block;
+        margin: 0.5% 1%;
+        a {
+            color: $darkcolor;
+            font-size: large;
+            i.fa {
+                font-size: x-large;
+            }
+        }
+        a:hover {
+            color: $primarycolor;
+            text-decoration: none;
+            background: none;
+        }
+    }
+    li.active {
+        a {
+            text-decoration: none;
+            color: $primarycolor;
+        }
+    }
+}
+
+ul.right-nav {
+    padding-left: 10%;
+    li {
+        margin: 0.5% 5%;
+        a {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+
