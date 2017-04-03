@@ -1,0 +1,21 @@
+section{
+    background: $ligthcolor;
+    .section-body{
+        padding: 1% 2%;
+
+        .search{
+            .input-group-addon{
+                background: $ligthcolor;
+                a{
+                    color: $darkcolor;
+                }
+            }
+            input[type='text']{
+                border-right: 0;
+            }
+        }
+    }
+}
+
+
+

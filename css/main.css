@@ -6276,7 +6276,10 @@ button.close {
   src: url("css/fonts/bootstrap/glyphicons-halflings-regular.eot");
   src: url("css/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
-input[type='text'] {
+body {
+  background: #d6d6d6; }
+
+input[type='text'], .btn, .input-group-addon {
   border-radius: 0; }
 
 .heading {
@@ -6330,6 +6333,17 @@ nav.navbar {
         padding-left: 0;
         padding-right: 0; }
 
+section {
+  background: white; }
+  section .section-body {
+    padding: 1% 2%; }
+    section .section-body .search .input-group-addon {
+      background: white; }
+      section .section-body .search .input-group-addon a {
+        color: black; }
+    section .section-body .search input[type='text'] {
+      border-right: 0; }
+
 footer {
   background: black;
   color: #d6d6d6; }
@@ -6352,8 +6366,7 @@ footer {
     footer .footer-body .body .input-group input[type='text'] {
       border-right: 0; }
     footer .footer-body .body .input-group .input-group-addon {
-      background: white;
-      border-radius: 0; }
+      background: white; }
       footer .footer-body .body .input-group .input-group-addon a {
         color: #19c4aa; }
   footer .footer {
