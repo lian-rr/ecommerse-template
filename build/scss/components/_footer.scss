@@ -1,0 +1,52 @@
+footer{
+    background: $darkcolor;
+    color: $ligthcolor-complement;
+
+    .footer-body{
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+        h2{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .body{
+            ul {
+                padding-left: 0;
+                li{
+                    list-style: none;
+                    margin-bottom: 3%;
+                    a{
+                        color: inherit;
+                    }
+                    a:hover{
+                        text-decoration: none;
+                        color: $ligthcolor;
+                    }
+                }
+
+            }
+            .input-group{
+                input[type='text']{
+                    border-right: 0;
+                }
+                .input-group-addon{
+                    background: $ligthcolor;
+                    border-radius: 0;
+                    a{
+                        color: $primarycolor;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .footer{
+        text-align: center;
+        font-weight: bold;
+        background: $darkcolor-complement;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}

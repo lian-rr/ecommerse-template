@@ -6276,6 +6276,9 @@ button.close {
   src: url("css/fonts/bootstrap/glyphicons-halflings-regular.eot");
   src: url("css/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
+input[type='text'] {
+  border-radius: 0; }
+
 .heading {
   font-weight: bold;
   font-size: 4rem;
@@ -6326,3 +6329,36 @@ nav.navbar {
       nav.navbar ul.right-nav li a {
         padding-left: 0;
         padding-right: 0; }
+
+footer {
+  background: black;
+  color: #d6d6d6; }
+  footer .footer-body {
+    padding-top: 1%;
+    padding-bottom: 1%; }
+    footer .footer-body h2 {
+      font-size: 2rem;
+      font-weight: bold; }
+    footer .footer-body .body ul {
+      padding-left: 0; }
+      footer .footer-body .body ul li {
+        list-style: none;
+        margin-bottom: 3%; }
+        footer .footer-body .body ul li a {
+          color: inherit; }
+        footer .footer-body .body ul li a:hover {
+          text-decoration: none;
+          color: white; }
+    footer .footer-body .body .input-group input[type='text'] {
+      border-right: 0; }
+    footer .footer-body .body .input-group .input-group-addon {
+      background: white;
+      border-radius: 0; }
+      footer .footer-body .body .input-group .input-group-addon a {
+        color: #19c4aa; }
+  footer .footer {
+    text-align: center;
+    font-weight: bold;
+    background: #444444;
+    padding-top: 1%;
+    padding-bottom: 1%; }

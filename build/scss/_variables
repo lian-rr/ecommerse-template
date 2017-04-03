@@ -1,4 +1,7 @@
 $darkcolor: black;
+$darkcolor-complement: #444444;
 $ligthcolor: white;
+$ligthcolor-complement: #d6d6d6;
+
 
 $primarycolor: #19c4aa;
