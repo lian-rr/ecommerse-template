@@ -1,6 +1,6 @@
-$darkcolor: black;
+$darkcolor: #000;
 $darkcolor-complement: #444444;
-$ligthcolor: white;
+$ligthcolor: #fff;
 $ligthcolor-complement: #d6d6d6;
 
 

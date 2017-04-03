@@ -6297,24 +6297,24 @@ input[type='text'], .btn, .input-group-addon {
   color: #19c4aa; }
 
 .heading-dark {
-  color: black; }
+  color: #000; }
 
 .welcome {
-  background: black;
-  color: white;
+  background: #000;
+  color: #fff;
   padding: 0.2% 2%; }
 
 nav.navbar {
   margin-bottom: 0; }
   nav.navbar .navbar-header a.navbar-brand {
-    color: black; }
+    color: #000; }
   nav.navbar ul.main-nav, nav.navbar ul.right-nav {
     padding-left: 25%; }
     nav.navbar ul.main-nav li, nav.navbar ul.right-nav li {
       display: inline-block;
       margin: 0.5% 1%; }
       nav.navbar ul.main-nav li a, nav.navbar ul.right-nav li a {
-        color: black;
+        color: #000;
         font-size: large; }
         nav.navbar ul.main-nav li a i.fa, nav.navbar ul.right-nav li a i.fa {
           font-size: x-large; }
@@ -6334,18 +6334,18 @@ nav.navbar {
         padding-right: 0; }
 
 section {
-  background: white; }
+  background: #fff; }
   section .section-body {
     padding: 1% 2%; }
     section .section-body .search .input-group-addon {
-      background: white; }
+      background: #fff; }
       section .section-body .search .input-group-addon a {
-        color: black; }
+        color: #000; }
     section .section-body .search input[type='text'] {
       border-right: 0; }
 
 footer {
-  background: black;
+  background: #000;
   color: #d6d6d6; }
   footer .footer-body {
     padding-top: 1%;
@@ -6362,13 +6362,13 @@ footer {
           color: inherit; }
         footer .footer-body .body ul li a:hover {
           text-decoration: none;
-          color: white; }
+          color: #fff; }
     footer .footer-body .body .input-group input[type='text'] {
       border-right: 0; }
     footer .footer-body .body .input-group .input-group-addon {
-      background: white; }
+      background: #fff; }
       footer .footer-body .body .input-group .input-group-addon a {
-        color: #19c4aa; }
+        color: #444444; }
   footer .footer {
     text-align: center;
     font-weight: bold;
