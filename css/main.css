@@ -6382,3 +6382,11 @@ footer {
     background: #444444;
     padding-top: 1%;
     padding-bottom: 1%; }
+
+section.contact {
+  padding-bottom: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%; }
+  section.contact .section-body button.btn {
+    background: #000;
+    color: #fff; }
